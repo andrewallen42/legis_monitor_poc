@@ -39,6 +39,9 @@ st.write("Welcome to the legislative monitoring app. We help you find bills rela
 with st.expander("Get Started"):
     st.markdown("### Welcome to the Legislative Monitoring App")
     st.markdown("**Overview:**")
+    st.write("As an intern at a government relations firm, I often monitored official gov't publications for updates of interest to particular clients. In today's Generative AI-driven world, this web app is a proof-of-concept tool designed to help accomplish just that: allow clients track legislation relevant to their personal or commercial interests.")
+    st.write("It provides access to bills updated in the House of Representatives in Feb 2023, retrieved using the Congress.gov API and summarized with GPT-4. This app can be easily adapted for other types of regular government publications.")
+
     st.write("This web app is a proof-of-concept tool designed to help clients track legislation relevant to their personal or commercial interests. It provides access to bills updated in the House of Representatives in Feb 2023, retrieved using the Congress.gov API and summarized with GPT-4. This app can be easily adapted for other types of regular government publications.")
     
     st.markdown("**Data Source:**")
