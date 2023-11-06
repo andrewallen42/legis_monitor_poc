@@ -1,2 +1,5 @@
 hugchat==0.3.8
 huggingface-hub==0.17.3
+datetime
+time
+pandas
