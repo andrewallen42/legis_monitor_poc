@@ -14,7 +14,7 @@ from hugchat import hugchat
 import datetime as dt
 
 # Read in data
-bills_filepath = 'C:\\Users\\andrewallen42\\OneDrive - Church of Jesus Christ\\Documents\\Analysis\\Side Project\\bill_df_w_gpt_summaries.csv'
+bills_filepath = 'bill_df_w_gpt_summaries.csv'
 df = pd.read_csv(bills_filepath)
 
 # Sidebar - User's interests
